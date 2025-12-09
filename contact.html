@@ -10,24 +10,35 @@
 <body>
 
   <!-- Header -->
-  <header class="site-header">
+  <header class="main-header">
     <div class="container">
-      <a href="index.html" class="logo">IEEE WIE <span class="accent">MMU</span></a>
 
-      <nav class="main-nav">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="events.html">Events</a>
-        <a href="projects.html">Projects</a>
-        <a href="members.html">Leadership</a>
-        <a href="gallery.html">Gallery</a>
-        <a href="resources.html">Resources</a>
-        <a href="contact.html" class="active">Contact</a>
-      </nav>
+        <div class="logo-float">
+            <a href="index.html">
+                <img src="images/logo.png" alt="IEEE WIE MMU Logo" class="logo-img">
+            </a>
+        </div>
+
+        <div class="title-float">
+            <h1>IEEE WIE MMU</h1>
+        </div>
+
+        <nav class="nav-float">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="events.html">Events</a>
+            <a href="projects.html">Projects</a>
+            <a href="members.html">Leadership</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="resources.html">Resources</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
     </div>
-  </header>
+</header>
 
-  <main class="site-main container">
+  <main class="site-main container main-content"> 
+   
     <h1>Contact Us</h1>
     <p>If you have any questions, want to collaborate or wish to join our affinity group, feel free to reach out!</p>
 
@@ -49,25 +60,7 @@
         </p>
       </div>
 
-      <!-- Contact Form -->
-      <form class="contact-form">
-        <h2>Send a Message</h2>
-
-        <label for="name">Your Name</label>
-        <input type="text" id="name" placeholder="Enter your name" required />
-
-        <label for="email">Email Address</label>
-        <input type="email" id="email" placeholder="yourname@example.com" required />
-
-        <label for="subject">Subject</label>
-        <input type="text" id="subject" placeholder="Subject" required />
-
-        <label for="message">Message</label>
-        <textarea id="message" rows="5" placeholder="Type your message..." required></textarea>
-
-        <button type="submit" class="btn">Send Message</button>
-      </form>
-
+    
     </div>
   </main>
 
